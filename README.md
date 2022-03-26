@@ -1,3 +1,6 @@
+![React-JS-Parlour-Animation-Website-with-Framer-Motion](https://user-images.githubusercontent.com/82109268/160250327-e64f9ec7-3fba-49ce-b004-5b22ac34246f.jpg)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
