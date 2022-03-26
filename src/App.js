@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Blog from 'components/Blog';
+import Contact from 'components/Contact';
+import Footer from 'components/Footer';
+import Home from 'components/Home';
+import Milestones from 'components/Milestones';
+import Portfolio from 'components/Portfolio';
+import Pricing from 'components/Pricing';
+import ScrollToTop from 'components/ScrollToTop';
+import Services from 'components/Services';
+import Skills from 'components/Skills';
+import Testimonials from 'components/Testimonials';
+import Video from 'components/Video';
+import { motion } from 'framer-motion';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <motion.div initial="hidden" animate="show">
+      
+      <Home />
+      <Services />
+      <Portfolio />
+      <Milestones />
+      <Blog />
+      <Video />
+      <Pricing />
+      <Testimonials />
+      <Skills />
+      <Contact />
+      <Footer />
+      <ScrollToTop />
+    </motion.div>
+  )
 }
 
-export default App;
+export default App
